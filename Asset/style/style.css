@@ -77,7 +77,16 @@ body{
     width: 159px;
     height: 110px;
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.bannerText{
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Poppins-Regular";
+    color: #FF3253;
+    margin: 0;
 }
 
 .bannerText1{
