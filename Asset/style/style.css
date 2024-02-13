@@ -58,7 +58,7 @@ body{
 }
 
 .div2-1{
-    margin-top: 75px;
+    margin-top: 40px;
     align-items: center;
     align-self: center;
     background-color: #FFE6EA;
@@ -72,6 +72,10 @@ body{
     text-align: center;
 }
 
+.audio{
+    align-self: center;
+    width: 200px;
+}
 
 .banner1{
     width: 159px;
