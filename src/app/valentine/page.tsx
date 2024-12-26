@@ -1,5 +1,6 @@
 "use client";
-import { useRouter } from 'next/navigation' 
+import { useRouter } from 'next/navigation'; 
+import Image from "next/image";
 
 export default function Valentine() {
     const router = useRouter();
@@ -25,10 +26,7 @@ export default function Valentine() {
           />
         </audio>
         <div className="items-center self-center bg-[#FFE6EA] w-[183px] h-[109px] content-center flex justify-center flex-col text-center mt-10 rounded-[15px]">
-          <img
-            src="/Asset/images/Alluzxi Mochi Cats GIF - Alluzxi Mochi Cats Throwing Hearts - Discover & Share GIFs.gif"
-            className="w-[159px] h-[110px] mb-[30px] rounded-[15px]"
-          />
+          <Image src={"/Asset/images/Alluzxi Mochi Cats GIF - Alluzxi Mochi Cats Throwing Hearts - Discover & Share GIFs.gif"} width={159} height={110} className='mb-[30px] rounded-[15px]' alt='cat'></Image>
         </div>
         <p className="text-center items-center text-[28px] text-[#FF3253] -mt-5">Selamat Hari Kasih Sayang!</p>
       </div>
@@ -55,7 +53,7 @@ export default function Valentine() {
           Waktu mengambil <br /> potret ini rasanya <br /> dag dig dug serrr....
           <br />
           <br />
-          “Mencintai itu dimulai dari hal-hal yang sederhana dan bermakna”
+          &quot;Mencintai itu dimulai dari hal-hal yang sederhana dan bermakna&quot;
         </p>
       </div>
       <div className="bg-[url(/Asset/images/animation.gif)] bg-center w-screen h-fit flex justify-center text-center flex-col">
@@ -76,11 +74,11 @@ export default function Valentine() {
             <img src="/Asset/images/Banner6.png" />
           </div>
           <p className="text-xs mt-5">
-            “Sayangkuu, cintakuu, ratukuu, wanitakuu <br />
+          &quot;Sayangkuu, cintakuu, ratukuu, wanitakuu <br />
             I love u so muchh <br />
             Thank youu for being mine dengan semua <br /> support dan bantuannya{" "}
             <br />
-            Selalu berdoa kepada yang sang Maha Cintaa” <br />
+            Selalu berdoa kepada yang sang Maha Cintaa&quot; <br />
           </p>
           <div className="items-center self-center bg-[#FFE6EA] w-[312px] h-36 content-center flex justify-center flex-col text-center mt-5 rounded-[15px]">
             <img src="/Asset/images/Banner7.png" />
